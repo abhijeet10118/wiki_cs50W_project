@@ -1,0 +1,25 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    Encyclopedia
+{% endblock %}
+
+{% block body %}
+<form method="post">
+    {% csrf_token %}
+    <div class="form-group">
+      <label >Title </label>
+      <input type="text" class="form-control" name="title"  placeholder="enter title" style="width:680px">
+      <small id="emailHelp" class="form-text text-muted">Make sure you are not overwriting any data unintentially</small>
+    </div>
+    <div class="form-group">
+        <label>Content</label>
+        <textarea type="text" class="form-control" name ="content"rows="3" style="width:680px ; height:400px "></textarea>
+      </div>
+     
+
+      <button type="submit" class="btn btn-primary ">Submit</button>
+</form>
+
+
+{% endblock %}
