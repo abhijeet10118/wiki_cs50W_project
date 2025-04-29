@@ -36,5 +36,5 @@ A simple but feature-rich Wikipedia-style encyclopedia built with Django. Users 
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/django-wiki.git
-   cd django-wiki
+   git clone https://github.com/abhijeet10118/wiki_cs50W_project/tree/master
+  
